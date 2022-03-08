@@ -2,6 +2,15 @@ body{
     margin: 15px 20px;
 }
 
+header{
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px 10px;
+}
+
 .cabecalho1{
     display: flex;
     justify-content: space-between;
@@ -17,6 +26,7 @@ body{
     justify-content: space-evenly;
     gap: 10px
 }
+
 .endereco {
     display: flex;
     justify-content: space-evenly;
