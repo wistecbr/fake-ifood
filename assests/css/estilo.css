@@ -13,6 +13,11 @@ header{
     padding: 30px 50px;
 }
 
+main{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
 a{
     text-decoration: none;
     color: #717171;
@@ -84,9 +89,13 @@ a:hover{
     cursor: pointer;
 }
 
+.lista_opcoes ul li p{
+    font-size: 15px;
+}
+
 .lista_opcoes ul li img{
-    height: 100px;
-    width: 130px;
+    height: 70px;
+    width: 90px;
 }
 
 .lista_opcoes ul li img:hover{
@@ -110,3 +119,27 @@ a:hover{
     margin-bottom: 15px;
 }
 
+.ultimas_lojas h2{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin: 40px 0px;
+}
+
+.ultimas_lojas ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+}
+
+.ultimas_lojas ul img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+footer{
+    border: 1px solid #717171;
+    margin: 50px 50px;
+}
